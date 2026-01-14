@@ -1,0 +1,34 @@
+# Rust
+/target/
+Cargo.lock
+
+# Foundry
+/contracts/out/
+/contracts/cache/
+/contracts/broadcast/
+/contracts/deployment.json
+
+# Dependencies
+/contracts/lib/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local config
+.claude/
